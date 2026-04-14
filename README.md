@@ -22,6 +22,8 @@ The primary focus of this work is resolving the inf-sup (LBB) instability and nu
 ├── data/                       # Directory containing all logged simulation data
 │   ├── rho_100/                # CSV logs (iterations, errors, time) for penalty parameter 100
 │   └── rho_10000/              # CSV logs (iterations, errors, time) for penalty parameter 10000
+|   ├── errors_with_no_corner_split.csv  # CSV logs (only corners are split)
+|   ├── errors_with_no_split.csv         # CSV logs (no split is peroformed)
 └── plots/                      # Output directory for high-resolution matplotlib figures
     ├── baseline_divergence_convergence.png
     ├── baseline_pressure_convergence.png
